@@ -21,7 +21,7 @@ button {
     font-weight: bold;
 }
 
-#delete-btn {
+#delete-all-btn {
     background: white;
     color: #5f9341;
 }
@@ -40,4 +40,17 @@ a {
     color: #5f9341;
 }
 
+.deleteBtn {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    font-size: .5em;
+    cursor: pointer;
+    margin-left: .7em;
+    padding: 0;
+    color: #5f9341;
+}
 
+.lead-item:hover .deleteBtn {
+    opacity: 0.9;
+}
